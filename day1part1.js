@@ -1,6 +1,6 @@
 const fs = require("fs");
 const readline = require("readline");
-const fileStream = fs.createReadStream("day1part1input.txt");
+const fileStream = fs.createReadStream("day1input.txt");
 
 const rl = readline.createInterface({
   input: fileStream,
